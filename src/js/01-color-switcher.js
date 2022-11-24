@@ -14,7 +14,6 @@ function onBtnClick(e) {
         clearInterval(timerId); 
         e.target.previousElementSibling.removeAttribute('disabled');
     }; 
-    
 };
 
 function getRandomHexColor() {
